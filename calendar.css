@@ -1,0 +1,90 @@
+html, body {
+    margin: 1em;
+    background-color: #F5F5F5;
+    font-size: 100%;
+    height:100%;
+    text-align: center;
+}
+
+h2 {
+    border-width: 2px;
+}
+
+.login {
+    text-align: left;   
+}
+
+.welcome {
+    text-align: right;   
+}
+
+.addevent {
+    text-align: center;
+    
+}
+
+.textMessage {
+    text-align: center;   
+}
+
+div#calendar {
+    
+    height:100%;
+    
+}
+
+
+.calendar{ 
+    border:solid #778899;
+    border-width:4px;  
+    background-color:#FFF5EE;
+    
+    width:80%;
+    
+    height:90%;
+    padding:4px;
+    border-spacing:4px;
+    margin: 0 auto;
+}
+
+table {
+    table-layout: fixed;
+}
+
+.dayNames {
+    height:5%;
+    width:10%;
+}
+
+.calendar td {
+    border:solid #778899;
+    vertical-align: top;
+    text-align: left;   
+    width:10%;
+    height:15%;    
+}
+
+.calendar th {
+    width:10%;
+    height:5%;   
+}
+
+#edit-event-dialog-form {
+    text-align: left;
+}
+
+.hover {
+    
+ background-color:#FFA500;
+}
+
+.haveEvents {
+    
+ background-color:#E9967A;
+}
+
+.calEvent {
+    border:2px solid;
+    border-radius:5px;
+    text-align: center;
+}
